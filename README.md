@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Rationale
+Losing personal belongings or pets is quite often a stressful experience, which is moreover reinforced by the inefficient and decentralised lost & found systems that are available. Individuals rely on social media posts, physical lost & found centres or word of mouth, often with limited success, to recover their items or pets. The need for an intuitive centralised platform for lost and found services is growing more and more as digital solutions advance.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The inefficiencies of existing methods highlight the need for a structured digital solution that has a simplified process of reporting and retrieving lost items/pets. Existing solutions lack categorisation, multi-criteria filtering and intuitive interfaces, increasing the item recovery time and making it unreliable. The objective of this study is to bridge the gap by developing a website that contains effective categorisation, clear and in-depth search filters and a straightforward reporting system, developing a better user experience and increasing item recovery. This project was partly inspired by losing my drawing portfolio on a bus; retrieving it required calls and a trip to the depot. A centralised digital system would have been far more efficient than scattered platforms like Facebook or Gumtree.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Interface
 
-### `npm start`
+A modern React-based front-end project using Material UI, Emotion, and React Router, designed for building responsive and scalable web interfaces.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is bootstrapped with [Create React App](https://create-react-app.dev/) and includes a well-equipped setup for development, testing, and building modern UI applications.
 
-### `npm test`
+##  Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  React 19
+-  Material UI (MUI)
+-  React Router v7
+-  Form and schema validation with Ajv
+-  Testing setup with Jest and Testing Library
+-  SVGR and SVGO for optimized SVG management
+-  Axios for HTTP requests
+-  Modern JavaScript transpilation with Babel
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js ≥ 16.x
+- npm ≥ 7.x
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+Clone the repository and install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/yourusername/interface.git
+cd interface
+npm install
